@@ -1,0 +1,361 @@
+(footprint "Relay_DPDT_Omron_G6K-2G-Y"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Omron G6K-2G-Y relay package http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf")
+	(tags "Omron G6K-2G-Y relay")
+	(property "Reference" "REF**"
+		(at 0 -6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "21ccd7cc-06ae-499c-90d6-77158ec4bd8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Relay_DPDT_Omron_G6K-2G-Y"
+		(at 0 6.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "905fe4c3-e5e7-4b60-a3a6-3b8bed5b524c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "43292771-5c27-440f-8095-4f3e72d6e52a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc0819ae-f5a5-495e-8210-a358aff7e8e0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.35 -5.1)
+		(end -3.35 -4.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "08857d88-f34e-439d-9164-656a730f871d")
+	)
+	(fp_line
+		(start -3.35 -5.1)
+		(end 3.35 -5.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "61bb0920-e367-426f-95a6-997e12fe3308")
+	)
+	(fp_line
+		(start -3.35 -1.4)
+		(end -3.35 -3.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d57ad367-8ca4-45b6-a8a8-8371bed68768")
+	)
+	(fp_line
+		(start -3.35 0.8)
+		(end -3.35 0.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "37aaf10d-754f-4d1d-9ffe-448606f3577c")
+	)
+	(fp_line
+		(start -3.35 3)
+		(end -3.35 2.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e72dbeae-7c60-4ec1-97f0-33d392fbcbf8")
+	)
+	(fp_line
+		(start -3.35 5.1)
+		(end -3.35 4.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6df82a74-28c8-459a-8f71-5f52605b6e00")
+	)
+	(fp_line
+		(start 3.35 -5.1)
+		(end 3.35 -4.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cdf007ec-e99d-4dff-aa35-f8db2b91d42d")
+	)
+	(fp_line
+		(start 3.35 -3)
+		(end 3.35 -1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "69495656-8290-49cc-bd5e-eeec265443d0")
+	)
+	(fp_line
+		(start 3.35 0.2)
+		(end 3.35 0.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e35dab74-ac9f-4b9f-9d8c-886ccc23ec06")
+	)
+	(fp_line
+		(start 3.35 2.4)
+		(end 3.35 3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "81ec8f8d-39b0-433f-a6df-af6544de5dcf")
+	)
+	(fp_line
+		(start 3.35 4.6)
+		(end 3.35 5.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f64f2744-efc1-4882-9537-81568ced2cfb")
+	)
+	(fp_line
+		(start 3.35 5.1)
+		(end -3.35 5.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9d1588df-1aaf-40d6-a9a2-fdc67cbfca59")
+	)
+	(fp_poly
+		(pts
+			(xy -4.05 -3.8) (xy -4.38 -3.56) (xy -4.38 -4.04)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "fc02ea8f-99ff-4ad9-bab5-98356fa4056b")
+	)
+	(fp_line
+		(start -4 -5.25)
+		(end -4 5.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2830eda6-9322-42dc-9b73-d67cf48eef6f")
+	)
+	(fp_line
+		(start -4 -5.25)
+		(end 4 -5.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a1a622c0-f704-4045-9730-1f0eb4239c72")
+	)
+	(fp_line
+		(start 4 5.25)
+		(end -4 5.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4ffd9b3d-4c97-4fee-b792-6fc6f81ec6a8")
+	)
+	(fp_line
+		(start 4 5.25)
+		(end 4 -5.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f0ed4864-a758-4d8e-9b12-802935fb3429")
+	)
+	(fp_line
+		(start -3.25 -4)
+		(end -2.25 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5c7bbfd7-7a3b-4015-a0c0-1d6238ae8ed5")
+	)
+	(fp_line
+		(start -3.25 5)
+		(end -3.25 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "598b2e40-0eff-4b2c-895d-0fb9858d4268")
+	)
+	(fp_line
+		(start -2.25 -5)
+		(end 3.25 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0ea77804-920e-41dd-ad77-c5b7c8df0a6e")
+	)
+	(fp_line
+		(start 3.25 -5)
+		(end 3.25 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e6f56873-2700-4c4f-a069-5c1a1a498084")
+	)
+	(fp_line
+		(start 3.25 5)
+		(end -3.25 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b1a7015b-7845-43f0-ba84-2e28fba784ae")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.01 0 0)
+		(layer "F.Fab")
+		(uuid "76c8049d-07fb-40a8-8716-0fd72e5a9844")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "11" smd roundrect
+		(at -2.85 1.6)
+		(size 1.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "e846ca3d-85a4-4920-ab5c-97d49f74d8a9")
+	)
+	(pad "12" smd roundrect
+		(at -2.85 -0.6)
+		(size 1.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "d46697a4-3676-480c-b572-dcc83bcc1bc5")
+	)
+	(pad "14" smd roundrect
+		(at -2.85 3.8)
+		(size 1.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "39a85dac-4784-48bb-944a-585facace5c7")
+	)
+	(pad "21" smd roundrect
+		(at 2.85 1.6)
+		(size 1.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "3b41fca7-59c0-4046-a84c-b5dab3ad7e5c")
+	)
+	(pad "22" smd roundrect
+		(at 2.85 -0.6)
+		(size 1.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "0fc2a880-9088-424d-b81a-220f56a71949")
+	)
+	(pad "24" smd roundrect
+		(at 2.85 3.8)
+		(size 1.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "0f0ebb6e-c957-40ad-96e8-eeeea589b019")
+	)
+	(pad "A1" smd roundrect
+		(at -2.85 -3.8)
+		(size 1.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "2b24f789-7b8b-4821-9abe-d2ffba0d727e")
+	)
+	(pad "A2" smd roundrect
+		(at 2.85 -3.8)
+		(size 1.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "000cff07-b231-4088-9f0c-06c124d0715f")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Relay_SMD.3dshapes/Relay_DPDT_Omron_G6K-2G-Y.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
